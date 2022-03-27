@@ -23,12 +23,3 @@ title: Home
     </li>
   {% endfor %}
 </ul>
-<hr>
-<ul>
-  <li>
-    <a href="/">Home</a>
-  </li>
-  <li>
-    <a href="/categories">All Categories</a>
-  </li>
-
