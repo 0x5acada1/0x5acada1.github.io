@@ -3,6 +3,8 @@ layout: page
 title: Home
 ---
 
+<a hrrf="/categories/">Categories</a>
+
 <ul>
   {% for post in site.posts %}
     <li>
