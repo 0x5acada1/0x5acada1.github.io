@@ -21,7 +21,7 @@ title: Home
   {% endfor %}
 </ul>
 <hr>
-## <a href="/categories/">All Categories</a>
+## All Categories
 <div id="archives">
 {% for category in site.categories %}
   <div class="archive-group">
@@ -31,15 +31,6 @@ title: Home
 
     <h3 class="category-head">{{ category_name }}</h3>
     <a name="{{ category_name | slugize }}"></a>
-    <ul>
-      {% for post in site.categories[category_name] %}
-      <article class="archive-item">
-        <li>
-          <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-        </li> 
-     </article>
-      {% endfor %}
-    </ul>
   </div>
 {% endfor %}
 </div>
