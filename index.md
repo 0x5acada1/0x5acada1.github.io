@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<h2>CTF</h2>
+## CTF
 
 <ul>
     <li>
@@ -12,9 +12,9 @@ title: Home
       <a href="/ctf/cheatsheets/">CheatSheets</a>
     </li>
 </ul>
-<hr>
+---
 
-<h2>最近の投稿</h2>
+## 最近の投稿
 
 <ul>
   {% for post in site.posts %}
