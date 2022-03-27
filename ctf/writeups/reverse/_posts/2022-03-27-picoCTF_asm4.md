@@ -2,10 +2,10 @@
 layout: post
 title: "picoCTF_asm4"
 published : true
-tags: CTF Reverse WriteUp picoCTF アセンブリ
+tags: CTF Reverse Writeup picoCTF アセンブリ
 ---
 
-## WriteUp: picoCTF asm4
+## Writeup: picoCTF asm4
 > Description  
 > What will asm4("picoCTF_724a2") return? Submit the flag as a hexadecimal value (starting with '0x'). NOTE: Your submission for this question will NOT be in the normal flag format.
 
