@@ -17,3 +17,6 @@ title: Home
     </li>
   {% endfor %}
 </ul>
+
+<hr>
+## <a href="/categories/">All Categories</a>
