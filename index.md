@@ -2,7 +2,9 @@
 layout: default
 title: Home
 ---
-## CTF
+{% include header.html %}
+
+<h2>CTF</h2>
 
 <ul>
     <li>
@@ -14,7 +16,7 @@ title: Home
 </ul>
 <hr>
 
-## 最近の投稿
+<h2>最近の投稿</h2>
 
 <ul>
   {% for post in site.posts %}
