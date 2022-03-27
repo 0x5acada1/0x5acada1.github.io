@@ -77,7 +77,7 @@ func1をそのまま読むこともできるが、コンパイルしてGhidraで
 ┌──(root💀nuc-kali)-[/ctf/picoctf/reverse/ARMssembly0]        
 └─# aarch64-linux-gnu-as chall.S -o chall
 ```
-Gidraで確認できるコードは以下の通り。
+Ghidraで確認できるコードは以下の通り。
 ```
 uint func1(uint param_1,uint param_2){
   if (param_2 < param_1) {
