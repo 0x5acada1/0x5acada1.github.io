@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "asm4"
+title: "picoCTF_asm4"
 published : true
-tags: CTF Reverse WriteUp picoCTF
+tags: CTF Reverse WriteUp picoCTF アセンブリ
 ---
 
 ## WriteUp: picoCTF asm4
@@ -158,7 +158,8 @@ void main(){
 ```
 ┌──(root💀nuc-kali)-[/ctf/picoctf/reverse/asm4]
 └─# gcc -m32 -c asm4.S -o asm4.o
-┌──(root💀nuc-kali)-[/ctf/picoctf/reverse/asm4]               └─# gcc -m32 -c main.c -o main.o -w                           
+┌──(root💀nuc-kali)-[/ctf/picoctf/reverse/asm4]
+└─# gcc -m32 -c main.c -o main.o -w                           
 ┌──(root💀nuc-kali)-[/ctf/picoctf/reverse/asm4]
 └─# gcc -m32 main.o asm4.o -o solver
 ┌──(root💀nuc-kali)-[/ctf/picoctf/reverse/asm4]
