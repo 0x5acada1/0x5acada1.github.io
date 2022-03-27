@@ -3,6 +3,7 @@ layout: default
 title: Home
 ---
 ## CTF
+
 <ul>
     <li>
       <a href="/ctf/writeups/">WriteUps</a>
@@ -13,6 +14,7 @@ title: Home
 </ul>
 <hr>
 ## 最近の投稿
+
 <ul>
   {% for post in site.posts %}
     <li>
