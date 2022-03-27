@@ -21,6 +21,11 @@ title: Home
   {% endfor %}
 </ul>
 <hr>
-#### <a href="/">Home</a>
-#### <a href="/categories">All Categories</a>
+<ul>
+  <li>
+    <a href="/">Home</a>
+  </li>
+  <li>
+    <a href="/categories">All Categories</a>
+  </li>
 
