@@ -13,6 +13,7 @@ title: Home
     </li>
 </ul>
 <hr>
+
 ## 最近の投稿
 
 <ul>
