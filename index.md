@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<a href="/categories/">Categories</a>
+<a href="/ctf/">CTF</a>
 
 <ul>
   {% for post in site.posts %}
