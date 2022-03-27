@@ -5,9 +5,9 @@ title: CTF CheatSheets
 ---
 
 <ul>
-    <li>
-      cccccccc
-    </li>
+    {% for post in site.categories.cheatsheets %}
+      <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
 </ul>
 
 {% include footer.html %}
