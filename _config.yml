@@ -1,3 +1,5 @@
+title: myCustomTitle
+description: myCustomAndDetailedDescription
 theme: jekyll-theme-hacker
 
 plugins:
