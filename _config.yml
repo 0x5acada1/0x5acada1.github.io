@@ -1,5 +1,5 @@
-title: myCustomTitle
-description: myCustomAndDetailedDescription
+title: "0x005ada15のブログ"
+description: "CTFのWriteUpやCheatSheetをまとめていく。"
 theme: jekyll-theme-hacker
 
 plugins:
