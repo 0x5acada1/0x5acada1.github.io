@@ -8,6 +8,8 @@ title: Home
     </li>
 </ul>
 
+<hr>
+
 <ul>
   {% for post in site.posts %}
     <li>
