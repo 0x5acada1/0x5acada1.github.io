@@ -23,3 +23,5 @@ title: Home
     </li>
   {% endfor %}
 </ul>
+
+{% include footer.html %}
