@@ -9,7 +9,7 @@ title: Home
 </ul>
 
 <hr>
-
+## 最近の投稿
 <ul>
   {% for post in site.posts %}
     <li>
