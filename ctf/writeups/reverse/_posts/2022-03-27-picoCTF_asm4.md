@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "picoCTF_asm4"
+title: "picoCTF: asm4"
 published : true
 tags: CTF Reverse Writeup picoCTF アセンブリ
 ---
