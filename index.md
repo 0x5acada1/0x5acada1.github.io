@@ -6,10 +6,10 @@ title: Home
 
 <ul>
     <li>
-      <a href="/ctf/writeups/">WriteUps</a>
+      <a href="/ctf/writeups/">Writeups</a>
     </li>
     <li>
-      <a href="/ctf/cheatsheets/">CheatSheets</a>
+      <a href="/ctf/cheatsheets/">Cheatsheets</a>
     </li>
 </ul>
 ---
