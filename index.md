@@ -2,14 +2,15 @@
 layout: default
 title: Home
 ---
+## CTF
 <ul>
     <li>
-      <a href="/ctf/">CTF</a>
+      <a href="/ctf/writeups/">WriteUps</a>
+    </li>
+    <li>
+      <a href="/ctf/cheatsheets/">CheatSheets</a>
     </li>
 </ul>
-<br>
-<br>
-<br>
 <hr>
 ## 最近の投稿
 <ul>
@@ -19,7 +20,6 @@ title: Home
     </li>
   {% endfor %}
 </ul>
-
 <hr>
 ## <a href="/categories/">All Categories</a>
 <div id="archives">
