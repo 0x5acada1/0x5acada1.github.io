@@ -12,7 +12,7 @@ tags: CTF Reverse Writeup picoCTF アセンブリ
 以下のコードが与えられる。
 
 [test.S]
- ```
+ ```Assembly
 asm4:
         <+0>:   push   ebp
         <+1>:   mov    ebp,esp
