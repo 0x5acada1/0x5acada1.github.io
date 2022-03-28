@@ -11,7 +11,7 @@ What integer does this program print with arguments 4004594377 and 4110761777
 以下のコードが与えられる。
 
 [chall.S]
-```
+```Assembly:chall.S
 	.arch armv8-a
 	.file	"chall.c"
 	.text
@@ -73,12 +73,12 @@ main:
 	.section	.note.GNU-stack,"",@progbits
 ```
 func1をそのまま読むこともできるが、コンパイルしてGhidraでreverseすると楽。
-```
+```sh
 ┌──(root💀nuc-kali)-[/ctf/picoctf/reverse/ARMssembly0]        
 └─# aarch64-linux-gnu-as chall.S -o chall
 ```
 Ghidraで確認できるコードは以下の通り。
-```
+```C
 uint func1(uint param_1,uint param_2){
   if (param_2 < param_1) {
     param_2 = param_1;
