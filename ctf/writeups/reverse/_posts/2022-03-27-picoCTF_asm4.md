@@ -77,7 +77,7 @@ asm4:
 まずは、アセンブリをコンパイル可能な形に書き換える。  
 
 [asm4.S]
-```
+```Assembly:asm4.S
 .intel_syntax noprefix
 .global asm4                                                  
 asm4:                                                              
@@ -146,7 +146,7 @@ c:
 次に、asm4関数を呼び出すmain関数を作る。
 
 [main.c]
-```
+```C:main.c
 #include<stdio.h>
 
 void main(){
@@ -155,7 +155,7 @@ void main(){
 ```
 コンパイル及びリンクし、実行ファイルを実行してフラグを得た。
 
-```
+```sh
 ┌──(root💀nuc-kali)-[/ctf/picoctf/reverse/asm4]
 └─# gcc -m32 -c asm4.S -o asm4.o
 ┌──(root💀nuc-kali)-[/ctf/picoctf/reverse/asm4]
