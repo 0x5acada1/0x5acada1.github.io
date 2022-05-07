@@ -5,7 +5,7 @@ title: CTF Cheatsheets
 ---
 
 {% for cheatsheets in site.categories.cheatsheet %}
-<h2>Reverse</h2>
+<h2>Reverse{{ cheatsheets }}</h2>
 <ul>
     {% for post in site.categories[cheatsheets].reverse %}
       <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
