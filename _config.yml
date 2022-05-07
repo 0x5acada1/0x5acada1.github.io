@@ -14,3 +14,6 @@ defaults:
     values:
       layout: default
       author: "0x005ada15"
+
+github：
+   is_project_page：false
