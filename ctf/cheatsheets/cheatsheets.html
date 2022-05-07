@@ -4,9 +4,10 @@ permalink: /ctf/cheatsheets/
 title: CTF Cheatsheets
 ---
 
+{% for cheatsheets in site.categories.cheatsheet %}
 <h2>Reverse</h2>
 <ul>
-    {% for post in site.categories.cheatsheet.reverse %}
+    {% for post in site.categories[cheatsheets].reverse %}
       <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
@@ -16,5 +17,5 @@ title: CTF Cheatsheets
       <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-
+{% endfor %}
 {% include footer.html %}
