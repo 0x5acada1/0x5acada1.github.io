@@ -1,3 +1,9 @@
+---
+layout: post
+title: "RSA_small_n"
+published : true
+tags: CTF Crypto cheatsheet RSA
+---
 小さいNが与えられたとき、素因数分解しp,qを得ることを試みる。
 http://factordb.com/
 
