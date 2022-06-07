@@ -5,7 +5,7 @@ google_analytics: G-B9M57QVXJ3
 theme: jekyll-theme-hacker
 
 plugins:
- - jekyll-sitemap
+  - jekyll-sitemap
 
 defaults:
   -
