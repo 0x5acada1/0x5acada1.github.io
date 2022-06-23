@@ -27,3 +27,8 @@ ss -antul
 
 ### apache2 config
 /etc/apache2/sites-enabled
+
+## SSH port forwerding
+```sh
+ssh daniel@panda.htb -L 9999:localhost:80
+```
