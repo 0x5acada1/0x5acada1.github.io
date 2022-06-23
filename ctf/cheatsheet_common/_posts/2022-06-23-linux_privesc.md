@@ -24,3 +24,6 @@ ps awxww
 ```sh
 ss -antul
 ```
+
+### apache2 config
+/etc/apache2/sites-enabled
