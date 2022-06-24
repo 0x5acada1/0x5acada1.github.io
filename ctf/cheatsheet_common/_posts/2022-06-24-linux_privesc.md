@@ -30,6 +30,11 @@ ss -antul
 /etc/apache2/sites-enabled
 ```
 
+## ssh-keygen プロンプトなし。(RCEでリモートマシン上にssh-keygenするときに使う)
+```sh
+ssh-keygen -t rsa -f /home/matt/.ssh/id_rsa'
+```
+
 ## SSH port forwerding
 ```sh
 ssh daniel@panda.htb -L 9999:localhost:80
