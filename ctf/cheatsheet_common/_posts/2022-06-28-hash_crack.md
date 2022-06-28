@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "linux_reverse_shell"
+title: "Hash crack"
 published : true
 tags: CTF Common cheatsheet linux hash "hash crack" hashcat "john the ripper"
 ---
