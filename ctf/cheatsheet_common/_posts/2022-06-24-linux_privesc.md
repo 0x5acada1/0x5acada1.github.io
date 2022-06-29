@@ -39,3 +39,12 @@ ssh-keygen -t rsa -f /home/matt/.ssh/id_rsa'
 ```sh
 ssh daniel@panda.htb -L 9999:localhost:80
 ```
+
+## cron
+```sh
+cat /etc/cron.d/*
+```
+and
+```sh
+cat /var/spool/cron/crontabs/*                cat: '/var/spool/cron/crontabs/*': Permission denied
+```
