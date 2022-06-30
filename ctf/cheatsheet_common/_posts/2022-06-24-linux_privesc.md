@@ -48,3 +48,25 @@ and
 ```sh
 cat /var/spool/cron/crontabs/*                cat: '/var/spool/cron/crontabs/*': Permission denied
 ```
+
+## 監査ログ
+- ユーザがadmグループにいるとき、監査ログが確認できる。その他/ver/logの確認も。
+```sh
+cry0l1t3@academy:/$ id
+uid=1002(cry0l1t3) gid=1002(cry0l1t3) groups=1002(cry0l1t3),4(adm)
+
+cry0l1t3@academy:/$ aureport --tty
+
+TTY Report
+===============================================
+# date time event auid term sess comm data
+===============================================
+Error opening config file (Permission denied)
+NOTE - using built-in logs:
+/var/log/audit/audit.log
+1. 08/12/2020 02:28:10 83 0 ? 1 sh "su mrb3n",<nl>
+2. 08/12/2020 02:28:13 84 0 ? 1 su "mrb3n_Ac@d3my!",<nl>
+3. 08/12/2020 02:28:24 89 0 ? 1 sh "whoami",<nl>
+4. 08/12/2020 02:28:28 90 0 ? 1 sh "exit",<nl>
+5. 08/12/2020 02:28:37 93 0 ? 1 sh "/bin/bash -i",<nl>
+```
