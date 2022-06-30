@@ -51,6 +51,8 @@ cat /var/spool/cron/crontabs/*                cat: '/var/spool/cron/crontabs/*':
 
 ## 監査ログ
 - ユーザがadmグループにいるとき、監査ログが確認できる。その他/ver/logの確認も。
+
+
 ```sh
 cry0l1t3@academy:/$ id
 uid=1002(cry0l1t3) gid=1002(cry0l1t3) groups=1002(cry0l1t3),4(adm)
