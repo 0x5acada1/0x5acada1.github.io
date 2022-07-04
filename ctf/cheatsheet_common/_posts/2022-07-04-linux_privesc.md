@@ -77,7 +77,10 @@ sudo 1.8.28 より前のバージョンでは、CVE-2019-14287を適用できる
 ```sh
 hugo@blunder:~$ sudo --version
 Sudo version 1.8.25p1
-hugo@blunder:~$ sudo -l                       Password:                                     Matching Defaults entries for hugo on blunder:    env_reset, mail_badpass,                        secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+hugo@blunder:~$ sudo -l
+Password:
+Matching Defaults entries for hugo on blunder:     env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
 
 User hugo may run the following commands on blunder:
     (ALL, !root) /bin/bash
