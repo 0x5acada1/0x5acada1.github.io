@@ -73,7 +73,7 @@ NOTE - using built-in logs:
 ```
 
 ## sudo
-sudo 1.8.28 より前のバージョンでは、CVE-2019-14287を適用できる場合がある。(https://www.jpcert.or.jp/newsflash/2019101601.html)
+sudo 1.8.28 より前のバージョンでは、CVE-2019-14287を適用できる場合がある。[JPCERT](https://www.jpcert.or.jp/newsflash/2019101601.html)
 ```sh
 hugo@blunder:~$ sudo --version
 Sudo version 1.8.25p1
