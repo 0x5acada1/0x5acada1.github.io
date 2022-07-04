@@ -17,7 +17,9 @@ cewl http://10.10.10.191 > wordlist
 - hashid
 - haiti
 - ...
+
 ### hashcat
 ...
+
 ### John The Ripper
 ...
