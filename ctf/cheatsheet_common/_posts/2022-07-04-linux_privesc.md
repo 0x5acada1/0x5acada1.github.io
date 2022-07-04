@@ -79,8 +79,9 @@ hugo@blunder:~$ sudo --version
 Sudo version 1.8.25p1
 hugo@blunder:~$ sudo -l
 Password:
-Matching Defaults entries for hugo on blunder:     env_reset, mail_badpass,
-    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+Matching Defaults entries for hugo on blunder:
+  env_reset, mail_badpass,
+  secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
 
 User hugo may run the following commands on blunder:
     (ALL, !root) /bin/bash
