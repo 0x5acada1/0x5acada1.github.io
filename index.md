@@ -17,7 +17,7 @@ title: Home
 ## 最近の投稿
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:5 %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
