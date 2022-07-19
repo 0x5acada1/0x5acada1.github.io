@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SSH"
+title: "Forensics"
 published : true
 tags: CTF Common cheatsheet forensic
 ---
