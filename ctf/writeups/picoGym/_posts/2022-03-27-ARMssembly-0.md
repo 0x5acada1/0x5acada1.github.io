@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "picoCTF: ARMssembly 0"
+title: "[reverse] ARMssembly 0"
 published : true
-tags: CTF Reverse Writeup picoCTF アセンブリ
+tags: CTF Reverse Writeup picoGym アセンブリ
 ---
 
 > Description  
