@@ -14,7 +14,7 @@ title: Home
 </ul>
 ---
 
-## 最近の投稿
+## Recent posts
 
 <ul>
   {% for post in site.posts limit:5 %}
