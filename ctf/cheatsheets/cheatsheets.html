@@ -3,25 +3,27 @@ layout: default
 permalink: /ctf/cheatsheets/
 title: CTF Cheatsheets
 ---
-<h2>Common</h2>
+<H2>CTF Cheatsheets</H2>
+
+<h3>Common</h3>
 <ul>
     {% for post in site.categories.cheatsheet_common %}
       <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-<h2>Pwn</h2>
+<h3>Pwn</h3>
 <ul>
     {% for post in site.categories.cheatsheet_pwn %}
       <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-<h2>Reverse</h2>
+<h3>Reverse</h3>
 <ul>
     {% for post in site.categories.cheatsheet_reverse %}
       <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-<h2>Crypto</h2>
+<h3>Crypto</h3>
 <ul>
     {% for post in site.categories.cheatsheet_crypto %}
       <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
