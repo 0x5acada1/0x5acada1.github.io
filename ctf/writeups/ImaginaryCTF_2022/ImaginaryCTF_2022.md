@@ -1,12 +1,11 @@
 ---
 layout: default
-permalink: /ctf/writeups/
-title: CTF Writeups
+permalink: /ctf/writeups/ImaginaryCTF_2022/
+title: ImaginaryCTF 2022 Writeup
 ---
 
-<a href="/ctf/writeups/ImaginaryCTF_2022/">ImaginaryCTF 2022</a>
 <ul>
-    {% for post in site.categories.writeups %}
+    {% for post in site.categories.ImaginaryCTF_2022 %}
       <li><span>{{ post.date | date_to_string }}</span> &nbsp;<a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
