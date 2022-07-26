@@ -32,7 +32,7 @@ ss -antul
 
 ## ssh-keygen プロンプトなし。(RCEでリモートマシン上にssh-keygenするときに使う)
 ```sh
-ssh-keygen -t rsa -f /home/matt/.ssh/id_rsa'
+ssh-keygen -t rsa -P '' -f /home/matt/.ssh/id_rsa
 ```
 
 ## SSH port forwerding
