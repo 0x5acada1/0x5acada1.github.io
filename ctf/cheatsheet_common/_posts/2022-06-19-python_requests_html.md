@@ -39,6 +39,9 @@ r = s.post(url, json=data)
 
 ## Cookie
 ### 取得
+```python
+print(s.cookies)
+```
 
 ### 送信
 ```python
