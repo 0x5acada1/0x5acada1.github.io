@@ -9,3 +9,6 @@ A company that specialises in web development is creating a new site that is cur
 
 ## Attachments
 - Under Construction.zip
+
+## WriteUp
+マシンにアクセスすると、"/auth"にリダイレクトされ、ログインページが現れました。
