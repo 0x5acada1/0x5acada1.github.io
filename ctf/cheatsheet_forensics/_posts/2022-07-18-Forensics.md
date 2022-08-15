@@ -2,7 +2,7 @@
 layout: post
 title: "Forensics"
 published : true
-tags: CTF Common cheatsheet forensic
+tags: CTF Common cheatsheet forensics
 ---
 
 ## 画像ファイルが与えられたとき
