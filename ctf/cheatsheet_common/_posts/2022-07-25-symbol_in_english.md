@@ -6,3 +6,4 @@ tags: CTF Common cheatsheet
 ---
 
 {} : curly brackets
+` : backtick
