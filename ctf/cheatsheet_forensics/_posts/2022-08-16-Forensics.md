@@ -33,7 +33,7 @@ tags: CTF Common cheatsheet forensics
 - cyberchefで開けるかどうか確かめる(!?)[Render image]
 
 ## 音声ファイルが与えられたとき
-- Audacityで開き、スペクトログラムを確認する。
+- Sonic Visualiserで開き、スペクトログラムを確認する。
 - DeepSoundを使う
 
 ## Zipファイルが与えられたとき
