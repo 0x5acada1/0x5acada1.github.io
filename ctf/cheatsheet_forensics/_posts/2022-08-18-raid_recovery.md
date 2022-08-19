@@ -18,7 +18,7 @@ $ ls -l
 ### ディスクデータの復元
 RAID5は2つのHDDのXORをとることで、破損したデータの復元が可能。
 復元にはpwntoolsを使用するのが楽。
-```python:solver.py
+```python
 from pwn import *
 
 dir= './forensics_intergalactic_recovery/'
