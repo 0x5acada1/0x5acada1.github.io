@@ -59,6 +59,7 @@ tags: [CTF, cheatsheet, forensics]
 
 ## Firefoxのファイル群が与えられたとき
 - firefox_decrypt.pyを使ってパスワードを解析してみる
+
 ```sh
 $ firefox_decrypt Mozilla/Firefox 
 Select the Mozilla profile you wish to decrypt
