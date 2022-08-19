@@ -3,7 +3,7 @@ layout: post
 title: "RAIDの復元"
 published : true
 permalink: /ctf/cheatsheets/forensics/raid_recovery
-tags: [CTF, Common, cheatsheet, forensics, raid]
+tags: [CTF, cheatsheet, forensics, raid, disk]
 ---
 ## RAID5
 ### 前提条件

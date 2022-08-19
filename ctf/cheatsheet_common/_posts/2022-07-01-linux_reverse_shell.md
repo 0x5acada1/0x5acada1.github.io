@@ -3,7 +3,7 @@ layout: post
 title: "linux_reverse_shell"
 published : true
 permalink: /ctf/cheatsheets/common/linux_reverse_shell
-tags: CTF Common cheatsheet linux "reverse shell"
+tags: [CTF, Common, cheatsheet, linux, reverse shell]
 ---
 ## リバースシェル
 - コマンド1

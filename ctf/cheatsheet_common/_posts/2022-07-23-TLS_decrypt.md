@@ -2,7 +2,8 @@
 layout: post
 title: "TLS通信の復号"
 published : true
-tags: CTF Common cheatsheet network TLS 復号
+permalink: /ctf/cheatsheets/common/tls_decrypt
+tags: [CTF, Common, cheatsheet, network, TLS, decrypt, 復号]
 ---
 
 ## TLS通信の復号

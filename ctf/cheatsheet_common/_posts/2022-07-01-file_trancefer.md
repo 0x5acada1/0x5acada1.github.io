@@ -2,7 +2,8 @@
 layout: post
 title: ファイル転送
 published : true
-tags: CTF Common cheatsheet linux "file trancefer"
+permalink: /ctf/cheatsheets/common/file_trancefer
+tags: [CTF, Common, cheatsheet, file trancefer, ファイル転送]
 ---
 ## linux
 ### curl

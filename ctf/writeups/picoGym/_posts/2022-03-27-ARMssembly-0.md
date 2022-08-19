@@ -2,7 +2,8 @@
 layout: post
 title: "[reverse] ARMssembly 0"
 published : true
-tags: CTF Reverse Writeup picoGym アセンブリ
+permalink: /ctf/writeups/picoGym/reverse/ARMssembly
+tags: [CTF, Reverse, Writeup, picoGym, assembly]
 ---
 
 > Description  

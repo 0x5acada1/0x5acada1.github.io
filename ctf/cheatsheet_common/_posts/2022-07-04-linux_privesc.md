@@ -2,7 +2,8 @@
 layout: post
 title: Linuxの特権昇格
 published : true
-tags: CTF Common cheatsheet linux 特権昇格 Privesc "privilage escaration"
+permalink: /ctf/cheatsheets/common/linux_privesc
+tags: [CTF, Common, cheatsheet, linux, 特権昇格, Privesc, privilage escaration]
 ---
 ## 列挙
 ### SUID
@@ -23,6 +24,13 @@ ps awxww
 ### サービス
 ```sh
 ss -antul
+```
+### Capability
+```sh
+david@nunchucks:/opt$ which perl
+/usr/bin/perl
+david@nunchucks:/opt$ getcap /usr/bin/perl
+/usr/bin/perl = cap_setuid+ep
 ```
 
 ### apache2 config

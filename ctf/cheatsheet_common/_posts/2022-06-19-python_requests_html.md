@@ -2,7 +2,8 @@
 layout: post
 title: HTTP通信の自動化(python/requests_html)
 published : true
-tags: CTF Common cheatsheet python requests_html
+permalink: /ctf/cheatsheets/common/python_requests_html
+tags: [CTF, Common, cheatsheet, python, requests_html]
 ---
 ## 基本
 ```python

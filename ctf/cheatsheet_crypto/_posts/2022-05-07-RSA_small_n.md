@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "RSA_small_N"
+title: "RSA small N"
 published : true
-tags: CTF Crypto cheatsheet RSA
+permalink: /ctf/cheatsheets/crypto/rsa_small_n"
+tags: [CTF, crypto, cheatsheet, RSA]
 ---
 小さいNが与えられたとき、素因数分解しp,qを得ることを試みる。
 

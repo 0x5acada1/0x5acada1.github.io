@@ -2,8 +2,8 @@
 layout: post
 title: "Forensicsの基本"
 published : true
-permalink: /ctf/cheatsheets/forensics/basic_info
-tags: CTF Common cheatsheet forensics
+permalink: /ctf/cheatsheets/forensics/common
+tags: [CTF, cheatsheet, forensics]
 ---
 ## なにかのデータファイルが与えられたとき
 - file *
