@@ -56,3 +56,17 @@ tags: [CTF, cheatsheet, forensics]
 - Protocol Hierarchy で中身をざっと確認
 - ファイルエクスポートしてみる
 - 文字列検索してみる
+
+## Firefoxのファイル群が与えられたとき
+- firefox_decrypt.pyを使ってパスワードを解析してみる
+```sh
+$ firefox_decrypt Mozilla/Firefox 
+Select the Mozilla profile you wish to decrypt
+1 -> Profiles/yodxf5e0.default
+2 -> Profiles/2542z9mo.default-release
+2
+
+Website:   http://acc01:8080
+Username: 'admin'
+Password: 'HTB{ur_8RoW53R_H157Ory}'
+```
