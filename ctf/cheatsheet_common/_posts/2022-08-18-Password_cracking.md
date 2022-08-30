@@ -32,4 +32,12 @@ hashcat --force keyword.txt -r /usr/share/hashcat/rules/best64.rule --stdout > w
 ```
 
 ### John The Ripper
-...
+#### 辞書
+```sh
+WL_PW=/usr/share/wordlists/rockyou.txt
+john --wordlist=$WL_PW hash.
+```
+#### ブルートフォース
+```sh
+john --incremental=ASCII hash.txt
+```
