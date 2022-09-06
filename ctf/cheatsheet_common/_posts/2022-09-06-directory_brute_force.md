@@ -36,14 +36,20 @@ Command
 ```sh
 ffuf -u http://10.10.11.161/api/v1/user/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt -c -ic -X POST -H 'Content-Type: application/json' -d '{"username":"admin","password":"P@ssw0rd"}'
 ```
+#### 末尾のスラッシュ
+Webサーバの設定によっては末尾にスラッシュを自動付与しない場合がある。検出漏れにつながるので注意すること。
+```sh
+ffuf -u http://10.10.11.161/FUZZ
+ffuf -u http://10.10.11.161/FUZZ/
+```
 #### 拡張子の指定
 システムに適した拡張子を指定することは検出率を上げる重要な要素となる。FUFFでは-eで指定する
 ##### PHPのときの例
-```
+```sh
 -e .php,.htnl,.txt
 ```
 ##### cgiのときの例
-```
+```sh
 -e .sh,.cgi,.pl,.py
 ```
 
