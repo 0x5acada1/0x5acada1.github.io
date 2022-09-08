@@ -39,6 +39,10 @@ tags: [CTF, cheatsheet, forensics]
 ## Zipファイルが与えられたとき
 - zipcheckで確認してみる
 - unzipで解凍できないときは"7zip e"してみる
+- 以下のコマンドでより詳細な情報が得られる。MethodがZipCryptoであれば、既知の平文攻撃を利用してパスワードを解読できる可能性がある。
+```sh
+7z l -slt uploaded-file-3422.zip
+```
 
 ### パスワードがかかっているとき
 - ZipCryptoに脆弱性あり。bkcrackツールでクラックを試みる(別ページにまとめたい)
