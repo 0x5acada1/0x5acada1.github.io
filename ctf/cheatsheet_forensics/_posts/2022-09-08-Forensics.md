@@ -47,6 +47,7 @@ tags: [CTF, cheatsheet, forensics]
 ### パスワードがかかっているとき
 - 簡単なパスワードなら、zip2johnからのjohnでクラック可能。
 - ZipCryptoに脆弱性あり。bkcrackツールでクラックを試みる
+
 ```sh
 $ bkcrack -C uploaded-file-3422.zip -c .bash_logout -P .bash_logout_local.zip -p .bash_logout_local
 bkcrack 1.5.0 - 2022-07-07
