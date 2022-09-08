@@ -45,8 +45,28 @@ tags: [CTF, cheatsheet, forensics]
 ```
 
 ### パスワードがかかっているとき
-- ZipCryptoに脆弱性あり。bkcrackツールでクラックを試みる(別ページにまとめたい)
 - 簡単なパスワードなら、zip2johnからのjohnでクラック可能。
+- ZipCryptoに脆弱性あり。bkcrackツールでクラックを試みる
+```sh
+$ bkcrack -C uploaded-file-3422.zip -c .bash_logout -P .bash_logout_local.zip -p .bash_logout_local
+bkcrack 1.5.0 - 2022-07-07
+[21:08:36] Z reduction using 151 bytes of known plaintext
+100.0 % (151 / 151)
+[21:08:37] Attack on 56903 Z values at index 6
+Keys: 7b549874 ebc25ec5 7e465e18
+75.6 % (43026 / 56903)
+[21:09:25] Keys
+7b549874 ebc25ec5 7e465e18
+
+$ bkcrack -C uploaded-file-3422.zip -k 7b549874 ebc25ec5 7e465e18 -U dec pass       bkcrack 1.5.0 - 2022-07-07
+[21:09:44] Writing unlocked archive dec with password "pass"
+100.0 % (9 / 9)
+Wrote unlocked archive.
+
+$ unzip dec
+Archive:  dec
+[dec] .bash_logout password: (pass)
+```
 
 ## PDFファイルが与えられたとき
 - peepdfで調べてみる
