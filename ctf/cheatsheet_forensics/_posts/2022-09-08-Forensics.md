@@ -59,7 +59,8 @@ Keys: 7b549874 ebc25ec5 7e465e18
 [21:09:25] Keys
 7b549874 ebc25ec5 7e465e18
 
-$ bkcrack -C uploaded-file-3422.zip -k 7b549874 ebc25ec5 7e465e18 -U dec pass       bkcrack 1.5.0 - 2022-07-07
+$ bkcrack -C uploaded-file-3422.zip -k 7b549874 ebc25ec5 7e465e18 -U dec pass
+bkcrack 1.5.0 - 2022-07-07
 [21:09:44] Writing unlocked archive dec with password "pass"
 100.0 % (9 / 9)
 Wrote unlocked archive.
