@@ -21,11 +21,20 @@ cewl http://10.10.10.191 > wordlist
 
 ### hashcat
 ### 基本コマンド
+[Attack Modes ]
+0 | Straight(辞書攻撃)
+3 | Brute-force
 ```sh
-hashcat -a 3 -m 3200 hash2.txt wordlist.txt
+hashcat -a 0 -m 3200 hash2.txt wordlist.txt
 ```
-
-### hashcat ruleを使ってwordlistを作る。
+### saltがある場合
+hash:salt の形式にする。
+以下のコマンドはmd5($salt.$pass)の場合
+```sh
+$ echo '62def4866937f08cc13bab43bb14e6f7:5a599ef579066807'>hash_hashcat.txt
+$ hashcat -a 0 -m 20 hash_hashcat.txt $WL_PW
+```
+### hashcat ruleを使ってwordlistを作る
 - keyword.txtには、wordlistのベースとなる単語が入っている。
 ```sh
 hashcat --force keyword.txt -r /usr/share/hashcat/rules/best64.rule --stdout > wordlist.txt
