@@ -21,9 +21,11 @@ cewl http://10.10.10.191 > wordlist
 
 ### hashcat
 ### 基本コマンド
+```sh
 [Attack Modes ]
 0 | Straight(辞書攻撃)
 3 | Brute-force
+```
 ```sh
 hashcat -a 0 -m 3200 hash2.txt wordlist.txt
 ```
