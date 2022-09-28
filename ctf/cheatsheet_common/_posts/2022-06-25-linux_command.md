@@ -12,3 +12,8 @@ cat << EOF > test.sh
 id
 EOF
 ```
+
+## 更新されるファイルを自動的に出力する
+```sh
+tail -f /var/log/apache2/access.log
+```
