@@ -53,4 +53,6 @@ john --wordlist=$WL_PW hash.
 john --incremental=ASCII hash.txt
 ```
 #### JTRルールを基にワードリストを作る
+```sh
 john --wordlist=base_wordlist.txt --rules --stdout > mutated-wordlist.txt
+```
