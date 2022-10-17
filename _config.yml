@@ -1,4 +1,4 @@
-title: "0x5acada1's CTF memos."
+title: "d415k's CTF memos."
 description: "CTFのWriteUpやCheatSheetをまとめていく。"
 show_downloads: false
 google_analytics: G-B9M57QVXJ3
@@ -13,4 +13,4 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: default
-      author: "0x5acada1"
+      author: "d415k"
