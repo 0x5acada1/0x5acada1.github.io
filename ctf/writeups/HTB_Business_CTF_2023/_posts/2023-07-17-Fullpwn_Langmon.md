@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Fullpwn] Langmon (600 pts, x solved)"
+title: "[Fullpwn] Langmon (600 pts, 498 solved)"
 published : true
 permalink: /ctf/writeups/HTB_Business_CTF_2023/Fullpwn_Langmon
 tags: [CTF, WriteUps, HTB Business CTF]
