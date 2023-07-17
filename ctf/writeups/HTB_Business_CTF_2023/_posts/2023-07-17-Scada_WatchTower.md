@@ -13,9 +13,7 @@ Our infrastructure monitoring system detected some abnormal behavior and initiat
 
 ## Solution
 
-zipファイルを解凍して出現した"tower_logs.pcapng"を見るとプロトコル"Modbus/TCP"の通信が確認できる。
-
-![Alt text](image.png)
+zipファイルを解凍して出現した"tower_logs.pcapng"を見るとプロトコル"Modbus/TCP"の通信が確認できた。
 
 "Modbus/TCP"について調べると、以下のサイトにレスポンスデータの抽出コードが記載されていた。
 
@@ -38,6 +36,11 @@ for pkt in scapy.PcapReader("tower_logs.pcapng"):
 ```
 
 以下のようにデータが抽出できた。
+
+```sh
+┌──(kali㉿kali)-[/ctf/…/htb/HTB Business CTF 2023/scada/Watch Tower]
+└─$ python3 modbus_show.py > out.txt
+```
 
 - out.txt
 
