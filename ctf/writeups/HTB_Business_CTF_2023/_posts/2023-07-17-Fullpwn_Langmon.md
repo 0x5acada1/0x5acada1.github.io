@@ -39,6 +39,7 @@ su developer
 
 ### Root
 1. `sudo -l`を実行すると、"/opt/prompt_loader.py"をルートで実行できることが確認できる
+
 ```sh
 developer@langmon:~$ sudo -l
 [sudo] password for developer:
