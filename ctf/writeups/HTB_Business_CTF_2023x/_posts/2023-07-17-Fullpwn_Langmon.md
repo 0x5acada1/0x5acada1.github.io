@@ -48,6 +48,7 @@ User developer may run the following commands on langmon:
 ```
 
 - /opt/prompt_loader.py
+
 ```python
 #!/usr/bin/python3
 import sys
@@ -71,7 +72,9 @@ if __name__ == "__main__":
 https://github.com/hwchase17/langchain/issues/4849
 
 1. ロードするprompt.pyを作成した。内容はSUIDフラグを持つbashを生成するもの。
+
 - prompt.py
+
 ```python
 from langchain.output_parsers.list import CommaSeparatedListOutputParser
 from langchain.prompts.prompt import PromptTemplate
@@ -91,7 +94,9 @@ PROMPT = PromptTemplate(
     output_parser=CommaSeparatedListOutputParser(),
 )
 ```
+
 1. 以下の通りルートを取得できた
+
 ```sh
 developer@langmon:~$ sudo /opt/prompt_loader.py prompt.py
 developer@langmon:~$ ll /tmp
