@@ -130,14 +130,6 @@ def get_data(i,s,q):
     sock.close()
     return result
 
-'''
-for i in range(1,100):
-    result = get_data(i)
-    print(result)
-    if 'HTB{' in result:
-        print(result)
-        break
-'''
 result = get_data(52,0,125)
 print(result)
 result += get_data(52,125,125)
@@ -186,7 +178,6 @@ flag_pos = [0x06, 0x0a, 0x0c, 0x15, 0x16, 0x1a, 0x2f, 0x35, 0x3f, 0x4d, 0x53, 0x
 
 print(len(data))
 for p in flag_pos:
-    #print(hex(p))
     print(chr(data[p]),end='')
 ```
 

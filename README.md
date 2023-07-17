@@ -1,3 +1,3 @@
 # d415k.github.io
-CTFのWriteupやCheatsheetをまとめていく。
+雑な技術メモ
 5/23
